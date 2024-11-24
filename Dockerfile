@@ -28,7 +28,7 @@ RUN npm install
 COPY . .
 
 # Expose the new port your app will run on
-EXPOSE 4000  # Changed from 3000 to 4000
+EXPOSE 4000  
 
 # Start the application
 CMD ["node", "App.js"]
